@@ -26,7 +26,7 @@ jobs:
        
     - name: Build Docker Image
       run: |
-        docker build -t devnovato76/docker-graphql:0.0.2 .
+        docker build -t devnovato76/docker-graphql:0.0.2
       
     - name: Push Docker Image
       run: |
